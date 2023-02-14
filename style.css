@@ -1,0 +1,55 @@
+/* Elementos de fixação da pag */
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 237, 234);
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+}
+
+/* Elementos do main da pag*/
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Elemento da seleção */
+main ::selection{
+    color: #231231;
+}
+
+/* Elementos dos botões */
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 550px;
+    width: 90%;
+    height: 70px;
+    text-decoration: none;
+    background-color: #9372b4;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid #644580;
+}
+/* Elemento de passagem de mouse nas letras */
+.button:hover{
+    color: rgb(40, 4, 49);
+}
+
+/* ELemntos do p */
+p{
+    color: #b993df; 
+}
+
+/* Elementos da imagem */
+.profile{
+    border-radius: 50%;
+    max-width: 220px;
+    border: 2px solid #9a6bc9;
+    padding: 4px;
+}
